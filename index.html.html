@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Saude</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./img/logo111.png">
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li class="item1">QUERO <br> Me alimentar melhor</li>
+                    <li class="item2">QUERO <br> Me exercitar</li>
+                    <li class="item3">QUERO<br> Ter peso saudável</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <div class="imc">
+                <h2 id='imc-descricao'>Para calcular o IMC (Índice de Massa Corporal), basta preencher os campos abaixo.</h2>
+                <input id="altura" type="number" placeholder="Altura(m)"/>
+                <input id="peso" type="number" placeholder="Peso(kg)"/>
+                <button onclick="calcular()">Calcular</button>
+                <button onclick="limpar()">Limpar</button>
+                <p id="res"></p>
+                
+            </div>
+
+            <div class="conteudo">
+                <div class="img-1">
+                    <img id='img1'src="./img/compulsao-alimentar-Minuto-Saudavel.png"/>
+                </div>
+                <div class="descricao">          
+                    <h2>Compulsão alimentar?</h2>
+                    <p>
+                        A compulsão alimentar é a prática recorrente de comer excessivamente e de modo descontrolado em um curto espaço de tempo, além de ser em uma quantidade maior que o organismo realmente necessita, conforme define o Blog da Saúde. Além disso, os sentimentos de culpa ou arrependimento costumam acompanhar os episódios compulsivos. 
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div class="conteudo">
+                <div class="img-2">
+                    <img id="img1"src="./img/saudavel.png"/>
+                </div>
+                <div class="descricao">          
+                    <h2>Rotina saudável: conheça algumas estratégias para cuidar do peso durante a pandemia</h2>
+                    <p>
+                        O exercício regular é indispensável para completar o gasto energético do cotidiano e tirá-lo do sedentarismo. O ideal é iniciar de acordo com seu condicionamento naquele momento (o que define as cargas), dado obtido por testes funcionais e exames indicados pelo seu médico. Os exames mais habituais medem a composição corporal e a função cardiopulmonar – afirma Nahas.<br>
+                        As melhores atividades para o (re)começo<br>
+                        Caminhada;<br>
+                        Pedalada;<br>
+                        Musculação leve.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="conteudo">
+                <div class="img-2">
+                    <img id="img1"src="./img/obesidade.jpg"/>
+                </div>
+                <div class="descricao">          
+                    <h2>Por que a obesidade é um fator de risco para pessoas?</h2>
+                    <p>
+                        A obesidade é um distúrbio metabólico ligado ao desenvolvimento de doenças cardíacas, diabetes, problemas no trato digestivo e até mesmo câncer.
+
+                        Antes característica de países mais desenvolvidos, a obesidade já atinge grande parte da população no Brasil. Os dados mais recentes do IBGE dão um alerta sobre a saúde do brasileiro. Segundo a pesquisa, publicada em 2009, 38,8 milhões de pessoas estão acima do peso. Isso representa 40% da população. Dentro desse grupo, 10,5 milhões de pessoas estão com o Índice de Massa Corporal (IMC) maior de 35, ou seja, estão obesos.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <span>Site criando por Igo vieira</span>
+    </footer>
+
+<script src="./javascript/script.js"></script>
+</body>
+</html>

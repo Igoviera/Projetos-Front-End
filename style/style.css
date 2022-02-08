@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+    list-style: none;
+
+}
+body{
+    background-color: #ececec;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #fff;
+    
+}
+.menu {
+    display:flex;
+ 
+}
+ul {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    font-weight: bold;
+    padding-right: 50px;
+}   
+li {
+    padding: 10px;
+}
+
+.item1{
+    color:#f9852b;
+}
+.item2 {
+    color: #389204
+}
+.item3{
+    color: #2787ee;
+}
+.logo img{
+    width: 100px;
+    padding: 10px;
+    margin-left: 50px;
+}
+/*----------------------------*/
+
+#imc-descricao {
+    color: #f9852b;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ececec;
+    border-radius:5px;
+    text-align: center;
+    height:30px;
+}
+button {
+    height: 29px;
+    width: 90px;
+    border: 0;
+    background-color:#f9852b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2 {
+    color: #2787ee;
+    font-size: 30px;
+}
+p{
+    color: rgb(83, 82, 82);
+    font-size: 20px;
+    padding-top: 15px;
+}
+#res{
+    color: rgb(83, 82, 82);
+}
+.imc{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.conteudo{
+    display: flex;
+    padding: 25px;
+    gap:35px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+#img1{   
+    width: 500px;
+    padding-bottom: 15px;
+}
+footer{
+    
+    height: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(80, 78, 78);
+}
+
+@media (max-width: 970px) {
+    img{
+        width: 10px;
+    }
+    li {
+        font-size: 15px;
+    }
+        h2 {
+        font-size:25px;
+    }
+    p{
+        font-size: 18px;
+    }
+    #img1 {
+        width: 400px;
+    }
+}
+@media (max-width:768px){
+    li {
+        font-size: 10px;
+    }
+    #imc-descricao{
+        font-size: 15px;
+    }
+    input, button{
+        width: 100px;
+    }
+
+    h2 {
+        font-size:20px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+
+    #img1{
+        width: 300px;
+    }
+}
+@media(max-width:650px){
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:447px){
+    .logo img {
+        width: 50px;
+    }
+    ul{
+        gap: 5px;
+    }
+    li {
+        font-size: 8px;
+    }  
+    .conteudo{
+        margin-left: 20px;
+        margin-right: 20px;
+    }  
+    #img1 {
+        width: 250px;
+    }
+    span{
+        font-size: 10px;
+    }
+}
